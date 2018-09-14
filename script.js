@@ -7,7 +7,7 @@ if (number.length > 20) {
     Submitted = "false";
 }
 // validate - numbers, -, . 
-if (number ) {
+if (number == ) {
     alert("The number must be a number");  
     Submitted = "false";
 }

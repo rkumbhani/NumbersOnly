@@ -1,5 +1,7 @@
 body {
     font-family: 'Open Sans', sans-serif;
+    background-color: teal;
+    background-image: linear-gradient(teal, lightblue);
 }
 
 h1, h2, h3 {
@@ -10,3 +12,9 @@ h1, h2, h3 {
     display: grid;
 }
 
+.savebtn {
+    width: auto;
+    padding: 10px;
+    background-color: aliceblue;
+    border: 1px solid gray;
+}

@@ -7,10 +7,14 @@ if (number.length > 20) {
     Submitted = "false";
 }
 // validate - numbers, -, . 
-if (number == ) {
-    alert("The number must be a number");  
-    Submitted = "false";
+const regex = new RegExp('[[\S]+[\d,-,.]+[\d]]');
+
+if (number = ){ 
+    Submitted = "true";
 }
+else {
+    alert("Invalid Number");
+    Submitted = "false";}
 
 // local storage - mongo
 // if input is empty, user time submitted is recorded
